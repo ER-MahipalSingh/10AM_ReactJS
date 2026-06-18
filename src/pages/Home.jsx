@@ -13,11 +13,13 @@ const Home = () => {
 
   return (
     <>
-      {links.map((link) => (
-        <Link key={link.id} to={link.path}>
-          <button>Click to {link.pages}</button>
-        </Link>
-      ))}
+      <div className="home-box">
+        {links.map((link) => (
+          <Link key={link.id} to={link.path}>
+            <button>Click to {link.pages}</button>
+          </Link>
+        ))}
+      </div>
     </>
   );
 };
