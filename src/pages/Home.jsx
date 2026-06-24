@@ -10,7 +10,8 @@ const Home = () => {
     { id: 1, pages: "Hookes", path: "/hookes" },
     { id: 2, pages: "Rest", path: "/rest" },
     { id: 3, pages: "Map", path: "/map" },
-    { id: 3, pages: "Parent", path: "/parent" },
+    { id: 4, pages: "Parent", path: "/parent" },
+    { id: 5, pages: "Effect", path: "/effect" },
   ];
 
   return (
