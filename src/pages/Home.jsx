@@ -12,6 +12,7 @@ const Home = () => {
     { id: 3, pages: "Map", path: "/map" },
     { id: 4, pages: "Parent", path: "/parent" },
     { id: 5, pages: "Effect", path: "/effect" },
+    { id: 5, pages: "Local", path: "/local" },
   ];
 
   return (

@@ -7,6 +7,7 @@ import Rest from "./pages/Rest";
 import Hookes from "./pages/Hookes";
 import Parent from "./pages/Parent";
 import Effect from "./pages/Effect";
+import Local from "./pages/Local";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/hookes" element={<Hookes />} />
         <Route path="/parent" element={<Parent />} />
         <Route path="/effect" element={<Effect />} />
+        <Route path="/local" element={<Local />} />
       </Routes>
     </BrowserRouter>
   );
