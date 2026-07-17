@@ -14,6 +14,7 @@ import Form from "./pages/Form";
 import Navbar from "./component/Navbar";
 import { useEffect } from "react";
 import Callback from "./pages/Callback";
+import Memo from "./pages/Memo";
 
 function App() {
   // useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/local" element={<Local />} />
         <Route path="form" element={<Form />} />
         <Route path="call" element={<Callback />} />
+        <Route path="memo" element={<Memo />} />
       </Routes>
       <ToastContainer theme="dark" position="top-center" />
     </BrowserRouter>
