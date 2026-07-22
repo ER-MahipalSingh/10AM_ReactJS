@@ -15,6 +15,7 @@ import Navbar from "./component/Navbar";
 import { useEffect } from "react";
 import Callback from "./pages/Callback";
 import Memo from "./pages/Memo";
+import Login from "./pages/Login";
 
 function App() {
   // useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
         <Route path="form" element={<Form />} />
         <Route path="call" element={<Callback />} />
         <Route path="memo" element={<Memo />} />
+        <Route path="login" element={<Login />} />
       </Routes>
       <ToastContainer theme="dark" position="top-center" />
     </BrowserRouter>
